@@ -1,6 +1,22 @@
 
+
+# Simple Flask Template
+
+This is a basic template for a Flask web application. It includes a single route for a homepage, a simple HTML template, and basic CSS styling.
+
+## Project Structure
+
+The project structure is as follows:
+```bash
+my_flask_app/    
+├── app.py          - Main application file    
+├── templates/  
+│   └── index.htm   - HTML template for the homepage  
+└── static/  
+    └── style.css   - CSS styling for the page  
+```
 - **app.py**: The main file to start the Flask application.
-- **templates/index.html**: HTML file with a basic structure for the homepage, using Jinja2 template syntax.
+- **templates/index.html**: HTML file with a basic structure /for the homepage, using Jinja2 template syntax.
 - **static/style.css**: Basic CSS file to style the page.
 
 ## Prerequisites
